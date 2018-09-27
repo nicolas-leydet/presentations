@@ -4,6 +4,10 @@
 
 ## HTTP
 
+```
+Client ---> Server
+```
+
 @ul[spaced-list-items]
 
 * Hypertext Transfer Protocol
@@ -16,13 +20,14 @@
 
 @ulend
 
-```
-Client ---> Server
-```
-
 ---
 
 ## RabbitMQ (AMQP)
+
+```
+Service ---> Queues <--- Service
+
+```
 
 @ul[spaced-list-items]
 
@@ -37,15 +42,14 @@ Client ---> Server
 
 @ulend
 
-
-```
-Service ---> Queues <--- Service
-
-```
-
 ---
 
 ## WAMP (Websocket)
+
+```
+Caller --> Broker --> Callee
+Publisher --> Brocker --> Subscriber
+```
 
 @ul[spaced-list-items]
 
@@ -57,9 +61,3 @@ Service ---> Queues <--- Service
 
 @ulend
 
-```
-Caller --> Broker --> Callee
-
-Publisher --> Brocker --> Subscriber
-
-```

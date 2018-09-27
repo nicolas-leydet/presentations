@@ -6,12 +6,13 @@
 
 @ul[spaced-list-items]
  * Hypertext Transfer Protocol
- * Simple / easy to implement
+ * Simple / fast to implement
  * Very well known and supported
- * Client -> server communication
+ * Limited to client -> server communication
  * Examples
-   * Allsports API
-   * Mapping / Matching services
+   + Allsports API
+   + Mapping / Matching services
+   + Most data provider APIs
 @ulend
 
 ---
@@ -22,10 +23,11 @@
  * Message broker
  * Reliable
  * Easy Scalability
- * Support for Pub-sub / Remote Procedure Call (RPC)
+ * Support for pub-sub / Remote Procedure Call (RPC)
  * Examples
-   * SD Data BUS
-   * Stat service (nameko)
+   + SD Data BUS
+   + Stat service (Nameko)
+   + Opta (Celery)
 @ulend
 
 ---
@@ -34,8 +36,8 @@
 
 @ul[spaced-list-items]
  * Web Application Messaging Protocol
- * Bidirectional
- * Pubsub / rpc easy to implement
+ * Based on Websocket (Bidirectional communication)
+ * Pub-sub / rpc easy to implement
  * Example
-   * Autobeast (Wamp)
+   + Autobeast (Wamp)
 @ulend

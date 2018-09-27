@@ -1,23 +1,41 @@
-# Communication
+# Communication between services
 
 ---
 
 ## HTTP
 
-- Usable stat api for SD |
-- Able to manage a lot of data |
-- Faster datashop generation |
+@ul
+ * Hypertext Transfer Protocol
+ * Simple / easy to implement
+ * Very well known and supported
+ * Client -> server communication
+ * Examples
+   * Allsports API
+   * Mapping / Matching services
+@ulend
 
 ---
 
 ## RabbitMQ
 
-- Deployed on 5 sports |
-- No changes for the quant users |
-- Need to add pagination to manage stat heavy sport datashop (tennis) |
+@ul
+ * Message broker
+ * Reliable
+ * Easy Scalability
+ * Support for Pub-sub / Remote Procedure Call (RPC)
+ * Examples
+   * SD Data BUS
+   * Stat service (nameko)
+@ulend
 
 ---
 
-## Websocket
+## WAMP / Websocket
 
-- yo
+@ul
+ * Web Application Messaging Protocol
+ * Bidirectional
+ * Pubsub / rpc easy to implement
+ * Example
+   * Autobeast (Wamp)
+@ulend

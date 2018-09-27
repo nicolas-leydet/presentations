@@ -9,7 +9,6 @@
 * Hypertext Transfer Protocol
 * Simple / fast to implement
 * Very well known and supported
-* Limited to client -> server communication
 * Examples
   + Allsports API
   + Mapping / Matching services
@@ -17,33 +16,50 @@
 
 @ulend
 
+```
+Client ---> Server
+```
+
 ---
 
-## RabbitMQ
+## RabbitMQ (AMQP)
 
 @ul[spaced-list-items]
 
 * Message broker
-* Reliable
+* Robust against peers/broker failure and restart
 * Easy Scalability
 * Support for pub-sub / Remote Procedure Call (RPC)
 * Examples
   + SD Data BUS
   + Stat service (Nameko)
-  + Opta (Celery)
+  + Opta worker cluster (Celery)
 
 @ulend
 
+
+```
+Service ---> Queues <--- Service
+
+```
+
 ---
 
-## WAMP / Websocket
+## WAMP (Websocket)
 
 @ul[spaced-list-items]
 
 * Web Application Messaging Protocol
-* Based on Websocket (Bidirectional communication)
+* Based on Websocket
 * Pub-sub / rpc easy to implement
 * Example
-  + Autobeast (Wamp)
+  + Autobeast
 
 @ulend
+
+```
+Caller --> Broker --> Callee
+
+Publisher --> Brocker --> Subscriber
+
+```

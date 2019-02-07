@@ -7,7 +7,6 @@
 
 @ul[spaced-list-items]
 
-* Replaces most lookups in allsports
 * Centralizes all ids
   * External ids (e.g. opta, cricviz, pinnacle)
   * legacy internal ids (e.g. allsports, SD)
@@ -23,8 +22,6 @@
 ```javascript
 {
     "entity_id" : 102347,
-    "sport" : "cricket",
-    "type" : "game",
     "lookups" : [
         {
             "source" : "cricket-quant",
@@ -74,6 +71,4 @@
 
 ---
 
-Please amend the confluence document
-
-https://confluence.smartodds.co.uk/display/~Nicolas.Leydet/Integration+of+the+mapping+service+and+its+impacts
+Please contribute to the confluence document (I will send a link)

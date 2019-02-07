@@ -7,10 +7,10 @@
 
 @ul[spaced-list-items]
 
+* One service used by all
 * Centralizes all ids
   * External ids (e.g. opta, cricviz, pinnacle)
   * legacy internal ids (e.g. allsports, SD)
-* One service used by all
 * New smartodds Unique Id
 
 @ulend

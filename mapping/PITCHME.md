@@ -1,8 +1,9 @@
-## Data strategy: Mapping service
+## Data strategy
+### Mapping service
 
 ---
 
-## Mapping service
+### Mapping service
 
 @ul[spaced-list-items]
 
@@ -17,7 +18,7 @@
 
 ---
 
-## Mapping Example
+### Mapping Example
 
 ```javascript
 {
@@ -46,7 +47,7 @@
 
 ---
 
-## Phase 1: Mapping service integration
+### Mapping service integration (Phase 1)
 
 @ul[spaced-list-items]
 
@@ -58,7 +59,7 @@
 
 ---
 
-## Phase 2: Migration to Smartodds unique Id
+## Migration to Smartodds unique Id (Phase 2)
 
 @ul[spaced-list-items]
 
@@ -73,6 +74,6 @@
 
 ---
 
-## Feeback
-Please amend the following document
+Please amend the confluence document
+
 https://confluence.smartodds.co.uk/display/~Nicolas.Leydet/Integration+of+the+mapping+service+and+its+impacts

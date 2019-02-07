@@ -38,8 +38,8 @@
     ]
 }
 ```
-@[6-9](legacy internal source)
-@[10-17](external sources)
+@[4-7](legacy internal source)
+@[8-15](external sources)
 @[2](Smartodds Unique Id)
 
 ---

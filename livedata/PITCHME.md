@@ -8,7 +8,7 @@
 
 ---
 
-### Live Data Acquisition 
+### Incident Envelope 
 
 ```javascript
 {
